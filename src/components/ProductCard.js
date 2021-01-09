@@ -33,7 +33,7 @@ function ProductCard({product, onCart}){
                 style={{
                     width:50,
                     height:50,
-                    tintColor:'#ffb74d'
+                    tintColor:'black'
                 }}
                 />
             </TouchableOpacity>  

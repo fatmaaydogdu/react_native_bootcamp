@@ -121,7 +121,7 @@ function addCart(item){
   if (index > -1){
     return;
   }
-  
+
 setCartList([... cartList, item.title]);
 
 }
@@ -155,14 +155,14 @@ setCartList([... cartList, item.title]);
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'#eceff1',
+        backgroundColor:'#c66900',
     },
 
     cartButtonContainer:{
       width: 80,
       height:80,
       borderRadius:70,
-      backgroundColor: 'orange',
+      backgroundColor: '#ff9800',
       alignItems:'center',
       alignSelf:'center',
       position:'absolute',
